@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.root{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.links a {
+    margin: 20px;
+}
+
+body{
+    background-color: darkblue;
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.satellites__table{
+    display: flex;
+}
+
+table{
+    width: 100%;
+}
+thead, tbody, th, td{
+    color: aquamarine;
+    border: 2px solid white;
+}
+
+thead,tbody{
+    justify-content: center;
+    text-align: center;
+}
+
+a{
+    font-size: 1.5em;
+}
+
+h1, a{
+    color: peachpuff;
+    text-decoration: none;
+}
+a:hover{
+    color: aliceblue;
+    text-shadow: 4px 4px 10px aqua;
+    transition: 0.8s ease;
+}
